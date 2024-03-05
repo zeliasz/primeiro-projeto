@@ -25,6 +25,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
+  width: auto;
 }
 body * {
   font-family: "Roboto Mono", monospace;
@@ -32,6 +33,7 @@ body * {
 }
 #box {
   width: 360px;
+  max-width: 588px;
   margin: 56px auto 0px auto;
   padding: 0 24px;
 }
