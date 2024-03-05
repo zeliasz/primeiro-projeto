@@ -25,7 +25,7 @@
 
 body {
   background: var(--bg-url) no-repeat top center/cover;
-  width: auto;
+  height: 100vh;
 }
 body * {
   font-family: "Roboto Mono", monospace;
@@ -151,4 +151,13 @@ footer {
   padding: 24px 0;
   text-align: center;
   font-size: 14px;
+}
+
+@media (main-width: 700px) {
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
+  .light {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
